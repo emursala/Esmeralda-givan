@@ -1,0 +1,127 @@
+:root {
+  --primary-color: #fd94b4;
+  --secondary-color: #ffa8e9;
+  --third-color: #ff89c0;
+  --border: 1px solid #dd60b4;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --background: #e7b8e9;
+}
+body {
+  text-align: center;
+  background: var(--background);
+  margin: 60px auto;
+}
+h1 {
+  font-size: 93px;
+}
+h2 {
+  font-size: 48px;
+  text-align: center;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+h1,
+h3 {
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 19px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.name {
+  color: var(--primary-color);
+}
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.contact-link {
+  border: var(--border);
+  background: var(--third-color);
+  box-shadow: var(--box-shadow);
+}
+.about-link {
+  border: var(--border);
+  background: var(--secondary-color);
+}
+.paragraphs {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.paragraphs p {
+  margin: 20px;
+}
+.email {
+  display: flex;
+  justify-content: center;
+  color: var(--third-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+.homepage-link {
+  color: #d164d6;
+  text-align: center;
+  display: block;
+}
+.navbar {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.bg-light {
+  background-color: var(--third-color) !important;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mt-125 {
+  margin-top: 125px;
+}
+.mt-100 {
+  margin-top: 100px;
+}
+.btn-custom {
+  border: var(--border);
+  background: var(--third-color);
+  box-shadow: var(--box-shadow);
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+.veganism {
+  margin-top: 33px;
+}
+.align-left {
+  text-align: left !important;
+}
+@media (max-width: 767.98px) {
+  .customImg {
+    display: none;
+  }
+  .name {
+    font-size: 86px;
+  }
+}
